@@ -7,13 +7,14 @@
 //
 // Setup: the office coffee machine — a daily, universal office ritual —
 // only takes exact change. Turn: the manager, who behaves the same way,
-// but with credit instead of coins. The punchline lands last, in one line,
-// and it is new: nobody in the office tells this one yet.
+// but with credit instead of coins. The repeated "only takes" makes the
+// parallel snap, and the punchline lands last, in one line. It is new:
+// nobody in the office tells this one yet.
 
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const JOKE =
-  "The office coffee machine takes exact change only, like my manager takes exact credit.";
+  "Our coffee machine only takes exact change, like my manager only takes exact credit.";
 
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", JOKE + "\n", "utf8");

@@ -11,7 +11,7 @@ One short line about office life — a real joke with a setup and a turn,
 built on something anyone who has worked in an office recognises, with the
 punchline last:
 
-> The office coffee machine takes exact change only, like my manager takes exact credit.
+> Our coffee machine only takes exact change, like my manager only takes exact credit.
 
 ## Run it
 
